@@ -30,3 +30,43 @@
 20220725	18:41:39	7679e7b4-f323-477f-9c7a-fea6d9673694	Log Event Emitted!
 20220725	18:41:42	436bec5a-777a-4a61-867b-8b3baf36994a	Log Event Emitted!
 20220725	18:41:48	30dae5e2-052f-4556-8fe4-b43513ecd61f	Log Event Emitted!
+20220725	21:33:53	9935c6b0-3fb2-4d35-bd43-492900e0ceca	GET	undefined	/home
+20220725	21:33:53	70828906-b4a2-471f-aa39-f48be172a7c0	GET	undefined	/public/css/style.css
+20220725	21:37:29	20f7c02d-ca30-4e45-acb6-a37adf97306c	GET	undefined	/home
+20220725	21:37:30	4fe58c30-e576-4923-9a05-a4bae45a6b8d	GET	undefined	/public/css/style.css
+20220725	21:39:12	f209269f-3eef-4bee-bf1a-3adf76e6701b	GET	https://www.google.com	/
+20220725	21:41:38	17c58442-a79c-476b-8494-8252a0821207	GET	https://www.google.com	/
+20220725	21:53:20	415d8815-e70d-4b8e-8562-84f25acfdbee	GET	https://www.google.com	/
+20220725	21:54:08	4bda7e9b-7d7a-4490-92f5-ee5dc95a4101	GET	https://www.google.com	/
+20220725	21:54:25	642bcff1-f86c-4b8d-a5d3-e7fd4b486ad3	GET	undefined	/home
+20220725	21:57:06	fe42c6d4-9c2b-4b90-93c1-121a717cf689	GET	undefined	/home
+20220725	22:00:04	12ac43a0-ac01-4def-a70e-a92dca8d9941	GET	undefined	/home
+20220725	22:00:04	d5727c41-d84d-4366-ac14-d762ab082cfb	GET	undefined	/public/css/style.css
+20220725	22:06:31	956f782b-9c5e-4c96-ae5d-cf77ff974b96	GET	undefined	/home
+20220725	22:06:31	a0c7e6a5-bbb6-4c44-ad88-5643308b80a2	Error:Not Allowed By CORS
+20220725	22:08:03	5c05db28-5d27-42c9-b326-3d1d2ed82fe3	GET	undefined	/home
+20220725	22:08:03	f34f32ae-fa90-49df-949c-3c34ed2a7754	Error:Not Allowed By CORS
+20220725	22:12:52	4e1c05be-6f72-4e25-9f1a-c9c1d1e10b47	GET	undefined	/home
+20220725	22:12:52	4f4c0525-9c58-479f-bf81-cef57437859b	Error:Not Allowed By CORS
+20220725	22:12:52	aa392868-948f-4434-ac4a-c033ca1ec9ed	GET	undefined	/home
+20220725	22:12:52	56ecb2b3-7560-4cc1-aec2-09e869d928eb	Error:Not Allowed By CORS
+20220725	22:12:53	f8cbd73c-39c5-470c-b810-d581b07c53d9	GET	undefined	/home
+20220725	22:12:53	e01f7ac2-eefd-4a5f-8332-fddebad8ac1a	Error:Not Allowed By CORS
+20220725	22:12:53	89915dc4-5693-43c4-b794-b23221a3807c	GET	undefined	/home
+20220725	22:12:53	c0ddf546-9bd1-4096-902a-4c271f4802a1	Error:Not Allowed By CORS
+20220725	22:13:18	d5980b74-c0b3-4a51-ba2b-ca6d9c725a61	GET	undefined	/home
+20220725	22:13:18	37abb5aa-7b6a-4670-bbf4-56efb167cf2b	Error:Not Allowed By CORS
+20220725	22:13:20	1abe43a8-cb33-4851-b2a0-de6e7609e21e	GET	undefined	/home
+20220725	22:13:20	b7dc81b7-ee13-4230-9127-143be6ee4807	Error:Not Allowed By CORS
+20220725	22:14:10	f4d9b8cf-8d57-4f64-a545-78a7565d2839	GET	undefined	/home
+20220725	22:14:10	ce994dd9-37a8-436b-a7fd-413d45d1312a	Error:Not Allowed By CORS
+20220725	22:14:11	33c7b99f-5f77-4446-aa78-ab703986b4ad	GET	undefined	/home
+20220725	22:14:11	6a028edd-c8bf-468b-a5b6-51cddc3d515f	Error:Not Allowed By CORS
+20220725	22:14:12	384c088a-ad45-4985-a40d-9e741f0b58ab	GET	undefined	/home
+20220725	22:14:12	33acf4b8-cf2f-4e85-96e8-7591660f2c32	Error:Not Allowed By CORS
+20220725	22:14:12	f997fcff-f039-4a74-b878-162c852be38d	GET	undefined	/home
+20220725	22:14:12	8f4f5edd-17ac-4485-8189-b13a228b03a6	Error:Not Allowed By CORS
+20220725	22:14:12	dc55bcdf-c414-4f68-b883-6e7f801043c5	GET	undefined	/home
+20220725	22:14:12	e11ea1b6-d680-4ee7-93ee-a1def9357140	Error:Not Allowed By CORS
+20220725	22:15:42	1136c7f1-0c7d-44c0-8c5d-a8c63b6b7121	GET	undefined	/hom
+20220725	22:15:42	58ef7485-1070-4211-9351-472c1359f5e1	GET	undefined	/public/css/style.css

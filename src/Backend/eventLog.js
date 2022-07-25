@@ -1,6 +1,6 @@
 
 
-const logEvents = require('./eventEmitter');
+const logEvents = require('./middleware/eventEmitter');
 
 const EventEmitter = require('events');
 
