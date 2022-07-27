@@ -70,3 +70,40 @@
 20220725	22:14:12	e11ea1b6-d680-4ee7-93ee-a1def9357140	Error:Not Allowed By CORS
 20220725	22:15:42	1136c7f1-0c7d-44c0-8c5d-a8c63b6b7121	GET	undefined	/hom
 20220725	22:15:42	58ef7485-1070-4211-9351-472c1359f5e1	GET	undefined	/public/css/style.css
+20220726	14:47:54	6a1ee63c-87b4-42cc-a1e6-4c5eb5be6121	GET	undefined	/
+20220726	14:47:54	792ef930-fd00-4064-91a5-f92cfaf1e76c	GET	undefined	/public/css/style.css
+20220726	14:47:54	bead66f2-b118-453d-8ea2-762ef6ba0076	TypeError:res.accepts is not a function
+20220726	14:48:01	c94d7d20-8dde-47bc-9f37-69c46a3d3947	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/views/subdir/index.html'
+20220726	14:48:58	8c706a76-e887-442f-8e64-151ad142311b	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/views/subdir/index.html'
+20220726	14:49:00	656ab05d-a409-4603-b562-7d05586f83f6	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/views/subdir/index.html'
+20220726	14:49:02	2115cd67-5e75-4837-b95c-b1c5e07f9e35	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/views/subdir/index.html'
+20220726	14:49:02	91aa50c0-8300-4a1d-9811-10aa97d3498c	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/views/subdir/index.html'
+20220726	14:49:50	8da14c9e-b867-483f-8252-26e17b7a90d2	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/routes/views/subdir/index.html'
+20220726	14:49:51	81b0c8b4-7881-4681-8764-b2629284fbcc	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/routes/views/subdir/index.html'
+20220726	14:49:52	05b65228-2539-4bf3-861c-59c1955f2338	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/routes/views/subdir/index.html'
+20220726	14:49:52	61489bfe-38b3-4e78-a73b-63893feaaffb	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/routes/views/subdir/index.html'
+20220727	08:34:48	f2fa1df1-47a9-4d8f-a941-9f3bddc4f7c0	GET	undefined	/subdir/test
+20220727	08:34:48	e154b71f-45d3-4484-adb2-89610012b74d	TypeError:res.accepts is not a function
+20220727	21:22:05	5cef27be-ddab-4dac-b4f0-de99dbb8a50d	GET	undefined	/subdir/test
+20220727	21:22:06	989d76f7-6fc7-43cb-9221-9fe86917381c	TypeError:res.accepts is not a function
+20220727	21:22:10	17b7b2a1-2b1a-45e3-a0ad-1dbc63696cae	GET	undefined	/
+20220727	21:22:10	37c79719-3686-4142-8ee4-7d32b9c014d7	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/Backend/expresswebserver/views/home.html'
+20220727	21:22:12	ef36d242-2254-48de-9289-c25cc4efb66d	GET	undefined	/
+20220727	21:22:12	3bb8faf2-6f01-4854-b190-713f833d1e1d	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/Backend/expresswebserver/views/home.html'
+20220727	21:22:13	81edfec0-7a44-44c5-a9f3-16cd5b0d1cd0	GET	undefined	/
+20220727	21:22:13	52b3f1a3-fb89-4205-b019-edba2d98a51a	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/Backend/expresswebserver/views/home.html'
+20220727	21:22:13	b3aeb2a2-9855-4a3f-87da-00a4d4e7e41a	GET	undefined	/
+20220727	21:22:13	00053c51-e910-4325-83b5-bbb3f358fcdc	Error:ENOENT: no such file or directory, stat '/home/princi/Documents/2022_Practice_React_Node/React/react_node/src/Backend/expresswebserver/views/home.html'
+20220727	21:23:15	768a0141-77d0-4fee-bb18-dae35c347858	GET	undefined	/
+20220727	21:23:15	26954615-0817-479d-adaa-720612d43e7b	GET	undefined	/public/css/style.css
+20220727	21:23:15	f42a2a34-9f7b-4a94-bc46-7133e593d2f7	TypeError:res.accepts is not a function
+20220727	21:25:15	2fbd2ac5-34f3-4264-b989-73a9ee32647f	RangeError:Invalid array length
+20220727	21:25:24	732e74ae-59d3-4211-90d4-a18fb13d90f2	RangeError:Invalid array length
+20220727	21:25:28	93fb83ac-cd35-4fbb-89fa-a9f774cc3472	RangeError:Invalid array length
+20220727	21:25:29	00024921-95b1-4e60-85ac-c17d2c05f04f	RangeError:Invalid array length
+20220727	21:28:16	0e20a267-6f96-4aab-898c-b136aea24ce2	DELETE	undefined	/employee
+20220727	21:28:16	4371fbb4-add2-4e00-ac65-f9a360a03016	TypeError:res.accepts is not a function
+20220727	21:30:00	0b8205c2-e22a-4193-983c-03d77a2f9d00	DELETE	undefined	/employee
+20220727	21:30:00	04b4d967-c351-4fee-9481-2b26caba8140	TypeError:res.accepts is not a function
+20220727	21:30:01	99c2e5b1-5d5a-40be-b81d-878adc74d025	DELETE	undefined	/employee
+20220727	21:30:01	8df4c96f-1825-495b-b510-83abd65d53d4	TypeError:res.accepts is not a function
