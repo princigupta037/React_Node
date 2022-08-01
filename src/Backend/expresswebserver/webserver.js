@@ -1,64 +1,56 @@
 const express = require('express');
 const app = express();
-const path = require('path')
-const PORT = process.env.PORT || 3500;
-const {logger} = require('../middleware/eventEmitter');
+const path = require('path');
 const cors = require('cors');
-const errorHandler = require('../middleware/errorHandler')
-const corsOptions = require('../config/corsOptions')
+const corsOptions = require('../config/corsOptions');
+const { logger } = require('../../Backend/middleware/eventEmitter');
+const errorHandler = require('../../Backend/middleware/errorHandler');
+const verifyJWT = require('../../Backend/middleware/verifyJWT');
+const cookieParser = require('cookie-parser');
+const credentials = require('../../Backend/middleware/credentials');
+const PORT = process.env.PORT || 3500;
 
-// Middleware
-app.use(express.urlencoded({extended: false}));
-
-// 1- Built-IN for json
-app.use(express.json());
-
-// serve statis files
-app.use('/', express.static(path.join(__dirname, '/public')));
-app.use('/subdir', express.static(path.join(__dirname, '/public')));
-app.use('/employees', require('../../routes/api/employees'));
-
-// 2- Custom Middleware logger
+// custom middleware logger
 app.use(logger);
 
-// 3rd Party Cross Origin Resource Sharing
+// Handle options credentials check - before CORS!
+// and fetch cookies credentials requirement
+app.use(credentials);
+
+// Cross Origin Resource Sharing
 app.use(cors(corsOptions));
 
-app.get('^/$|/home(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'home.html'));
-})
+// built-in middleware to handle urlencoded form data
+app.use(express.urlencoded({ extended: false }));
 
-app.get('/login-page(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'loginPage.html'));
-})
+// built-in middleware for json 
+app.use(express.json());
 
-app.get('/old-page(.html)?', (req, res) => {
-    res.redirect(301, './login-page.html'); //302 by default
-})
+//middleware for cookies
+app.use(cookieParser());
+
+//serve static files
+app.use('/', express.static(path.join(__dirname, '/public')));
+
+// routes
+// app.use('/', require('./routes/root'));
+app.use('/register', require('../../routes/api/register'));
+app.use('/auth', require('../../routes/api/auth'));
+app.use('/refresh', require('../../routes/api/refresh'));
+app.use('/logout', require('../../routes/api/logout'));
+
+app.use(verifyJWT);
+app.use('/employees', require('../../routes/api/employees'));
 
 app.all('*', (req, res) => {
     res.status(404);
-    if (res.accepts('html')) {
-        res
-            .status(404)
-            .sendFile(path.join(__dirname, 'views', '404.html'))
-    }
-    if (res.accepts('json')) {
-        res.json({error: "404 Not Found"});
+    if (req.accepts('html')) {
+        res.sendFile(path.join(__dirname, 'views', '404.html'));
+    } else if (req.accepts('json')) {
+        res.json({ "error": "404 Not Found" });
     } else {
-        res
-            .type('txt')
-            .send("404 Not Found");
+        res.type('txt').send("404 Not Found");
     }
-});
-
-// Without path app.get('/',(req ,res )=>{ res.sendFile('././views/home.html',
-// {root: __dirname}); }) Route Handlers
-app.get('./home(.html)?', (req, res, next) => {
-    console.log('attempted to load home.html');
-    next()
-}, (req, res) => {
-    res.send('Hello world!')
 });
 
 app.use(errorHandler);

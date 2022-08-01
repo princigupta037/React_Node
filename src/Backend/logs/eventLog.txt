@@ -107,3 +107,69 @@
 20220727	21:30:00	04b4d967-c351-4fee-9481-2b26caba8140	TypeError:res.accepts is not a function
 20220727	21:30:01	99c2e5b1-5d5a-40be-b81d-878adc74d025	DELETE	undefined	/employee
 20220727	21:30:01	8df4c96f-1825-495b-b510-83abd65d53d4	TypeError:res.accepts is not a function
+20220728	12:50:47	90f2dfcb-baa2-43d1-b558-6c17c45e694f	GET	undefined	/
+20220728	12:50:47	1e5c3796-46b0-41b4-9ddb-f884e85dbef8	GET	undefined	/public/css/style.css
+20220728	12:50:48	7d07f127-faa4-4fd6-8ead-55393ba3eb8a	TypeError:res.accepts is not a function
+20220728	12:50:48	c315d9c3-c634-4104-a24b-929977f95be6	GET	undefined	/
+20220728	12:50:48	e98b9927-c2e0-467c-bd51-3900025be246	GET	undefined	/public/css/style.css
+20220728	12:50:48	cd02752d-04c7-46a9-8d78-3193070fa9bb	TypeError:res.accepts is not a function
+20220728	12:53:02	33a5d1a8-031b-448e-8b51-29aac71c7882	GET	undefined	/register
+20220728	12:53:02	4d623f94-73de-4bac-9ca5-6f9648c0d6b3	TypeError:res.accepts is not a function
+20220728	12:53:46	af670cc6-185e-4fc4-9544-aeae1fdf8c46	GET	undefined	/register
+20220728	12:53:46	75914ade-3b3a-4483-9565-551a0e570671	TypeError:res.accepts is not a function
+20220728	12:53:47	6c1d0d7b-fe78-40eb-8bba-0ab9bd12cabb	GET	undefined	/register
+20220728	12:53:47	263b04b1-c08d-45f3-b54c-f8b54ff153c8	TypeError:res.accepts is not a function
+20220731	20:08:45	ac64c495-40c7-4233-be0d-97423c2d24c4	GET	undefined	/auth
+20220731	20:08:45	fe645416-2280-407b-a99e-e1fe93429764	TypeError:res.accepts is not a function
+20220731	20:21:01	880ce745-da01-4487-b93c-915b22b542aa	GET	undefined	/employees
+20220731	20:21:09	88a8ba61-9b19-4f4c-b53a-04209744d9b7	GET	undefined	/auth
+20220731	20:22:13	70ed064d-a11b-4b3c-acfb-62b2506a758c	POST	undefined	/auth
+20220731	20:29:27	d657bc48-a6cf-423e-9797-95e1143b3b33	POST	undefined	/auth
+20220731	20:31:42	3a9808c2-a792-46cf-aca1-8b89c988e46c	POST	undefined	/auth
+20220731	20:32:25	c7f239ee-8e73-4cd0-b59d-bde4e8648ce6	POST	undefined	/auth
+20220731	20:33:09	ba32ee48-8173-4368-b4f4-0c2a36786972	POST	undefined	/auth
+20220731	20:35:24	57832efa-f5f3-4df5-a472-ed3989476448	POST	undefined	/auth
+20220731	20:36:00	5d82bc7d-f6bf-4f45-930a-6a4f554f17ce	GET	undefined	/employees
+20220731	20:36:09	f949c678-0fe4-4167-ba29-14b45d2a182b	POST	undefined	/auth
+20220731	20:36:37	dd376086-879a-4436-a89c-8f1a23c04238	GET	undefined	/employees
+20220731	20:38:54	fe485373-4927-446a-9b05-4c08d3cc3ff5	POST	undefined	/auth
+20220731	20:39:10	1567f7b3-1fe1-4b0a-8afa-42568fcb8741	GET	undefined	/employees
+20220731	20:39:26	01535948-171c-4dfa-92da-dd458237cef8	POST	undefined	/auth
+20220731	20:40:40	c15b55e0-e9d1-4dca-bd51-ba3254a75ead	POST	undefined	/employees
+20220731	20:41:31	eee877e8-625e-4727-bf38-ea9950972cfd	POST	undefined	/auth
+20220731	20:42:07	a40106c6-cc3d-4a13-b814-d1cb0e9ac905	GET	undefined	/refresh
+20220731	20:42:14	dd90679e-d08b-4d73-8b51-a862db0c7dde	POST	undefined	/auth
+20220731	20:42:19	c6d9d87e-340f-4d05-87fe-bbc52a23d5e7	GET	undefined	/refresh
+20220731	20:42:46	082d3b10-db61-4e4d-9010-6db6face49b2	POST	undefined	/auth
+20220731	20:43:08	5ac14601-c230-46bb-add2-c5d21451b46e	GET	undefined	/refresh
+20220731	20:43:09	2059e126-e193-44e6-aa79-64ced96fa843	GET	undefined	/refresh
+20220731	20:43:18	be2278b4-7e3b-4e1a-9550-78e93b4c65fe	POST	undefined	/auth
+20220731	20:43:27	96d798b8-6327-4f7e-b972-33e412cd7ef8	GET	undefined	/refresh
+20220731	20:43:42	cdab205f-4639-4a03-82fd-594c6378e0de	GET	undefined	/refresh
+20220731	20:43:45	fec7b4bb-243a-4805-a536-dc40bb4b42c4	POST	undefined	/auth
+20220731	20:43:47	ee8d8588-4ee2-4897-81f7-cf9514a9e0f1	GET	undefined	/refresh
+20220731	20:44:14	c1075c16-67ed-496f-8301-c22eb418974e	GET	undefined	/refresh
+20220731	20:44:14	672ecbd4-2f27-4c16-b964-c31a545d0e94	GET	undefined	/refresh
+20220731	20:44:14	d190be12-6b05-40a7-a59d-bdcff92d2fb7	GET	undefined	/refresh
+20220731	20:44:15	1bff7084-58c0-4050-ac6a-52fe20f357dd	GET	undefined	/refresh
+20220731	20:45:45	6b7326b7-45fe-47ab-bc64-13039157082b	POST	undefined	/auth
+20220731	21:03:06	de0a0195-e1ef-45ed-8f9b-351b2317a362	GET	undefined	/logout
+20220731	21:03:16	52caf6dc-ca9f-4688-937f-0c2c0bfb2439	GET	undefined	/logout
+20220731	21:03:20	56fc0b2f-ed1e-49cd-8680-3cfbff4732f4	GET	undefined	/logout
+20220731	21:03:48	cdf8b8fb-e1c1-42e3-a64d-179ad11fe08e	GET	undefined	/auth
+20220731	21:04:04	b963e7dd-7fdf-45fd-bbc2-7d1537dcc0d4	POST	undefined	/auth
+20220731	21:04:17	41b8f991-49ff-4a39-9585-17e3e0b677c8	GET	undefined	/logout
+20220731	21:04:50	553810bc-8e69-4c55-9cb1-89268e88e977	GET	undefined	/refresh
+20220731	21:04:50	c653ae64-7c45-4291-b91e-8a32d51895e2	GET	undefined	/refresh
+20220731	21:04:51	83a165c1-09b1-4994-bc6e-765327a791f0	GET	undefined	/refresh
+20220731	21:04:52	5d84355c-f6aa-4656-875a-f4f21cb65d67	GET	undefined	/refresh
+20220801	17:19:29	433f9af6-8ae2-43eb-8276-265e70799f71	POST	undefined	/auth
+20220801	17:21:15	6fbd4ebd-3aea-4863-8149-4f890e2743fe	POST	undefined	/auth
+20220801	17:21:25	ec18a92d-fcf8-48c3-b2af-c61f0c76a5e4	POST	undefined	/auth
+20220801	17:21:49	e86ef22a-4a24-4bff-b22d-19fe3df7dac9	POST	undefined	/auth
+20220801	17:23:15	5ce9be51-7ec5-4ccc-9d2f-2de84aceebd9	POST	undefined	/auth
+20220801	17:33:34	fe2dc6ad-a5c6-4469-8126-92f315b12e27	POST	undefined	/auth
+20220801	17:34:19	d18ac84a-7555-483d-98f4-9be669580729	GET	undefined	/employees
+20220801	17:34:23	8ea1727e-6c26-44b7-8882-6de5a2ec6294	POST	undefined	/auth
+20220801	17:34:32	cd7933e3-00dc-4792-aeca-cd04f90065f1	GET	undefined	/employees
+20220801	17:34:32	c796ce93-ba0b-42bd-91d7-dbb96735fd81	GET	undefined	/employees
