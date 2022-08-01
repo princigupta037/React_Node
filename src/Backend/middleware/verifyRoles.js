@@ -5,7 +5,7 @@ const verifyRoles = (...allowedRoles) => {
     console.log(rolesArray);
     console.log(req.roles);
     const results = req.roles.map(role => rolesArray.includes(role)).find(val => val === true);
-    if (!result) return res.sendStatus(401);
+    if (!results) return res.sendStatus(401);
     next();
 }
 }
